@@ -1,0 +1,14 @@
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.exe.config
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.exe
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.pdb
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\mscorlib.dll
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\normidna.nlp
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\normnfc.nlp
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\normnfd.nlp
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\normnfkc.nlp
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\normnfkd.nlp
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.TitleBar.resources
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.exe
+C:\Users\David\Documents\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.pdb
