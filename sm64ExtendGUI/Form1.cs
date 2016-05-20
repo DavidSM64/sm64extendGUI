@@ -105,7 +105,7 @@ namespace WindowsFormsApplication2
                     arguments += "-f ";
             }
 
-            arguments += romLoc.Text; // Add rom location to argument list
+            arguments += "\""+romLoc.Text+"\""; // Add rom location to argument list
             Process p = new Process();
             p.StartInfo.FileName = "sm64extend.exe";
             p.StartInfo.Arguments = arguments;
@@ -113,11 +113,11 @@ namespace WindowsFormsApplication2
             p.WaitForExit();
             if (p.ExitCode == 0)
             {
-                MessageBox.Show("Your ROM has been extended!", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Your ROM has been extended!\n Arguments passed:\n" + arguments, "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Uh-oh, Something bad happend! Exit code: "+p.ExitCode, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Uh-oh, Something bad happend! Exit code: "+p.ExitCode+ "\n Arguments passed:\n" + arguments, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
