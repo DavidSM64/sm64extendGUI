@@ -59,13 +59,13 @@ namespace WindowsFormsApplication2
             if (basicButton.Checked)
             {
                 if (option24MB.Checked)
-                    arguments += "-s 24 ";
+                    arguments += "-s 24 -a 16 ";
                 else if (option32MB.Checked)
-                    arguments += "-s 32 ";
+                    arguments += "-s 32 -a 16 ";
                 else if (option48MB.Checked)
-                    arguments += "-s 48 ";
+                    arguments += "-s 48 -a 16 ";
                 else
-                    arguments += "-s 64 ";
+                    arguments += "-s 64 -a 16 ";
             }
             else
             {
@@ -113,7 +113,7 @@ namespace WindowsFormsApplication2
             p.WaitForExit();
             if (p.ExitCode == 0)
             {
-                MessageBox.Show("Your ROM has been extended!\n Arguments passed:\n" + arguments, "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Your ROM has been extended!", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
